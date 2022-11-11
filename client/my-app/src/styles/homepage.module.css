@@ -1,0 +1,77 @@
+#tododiv{
+    background-color: white;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 40px;
+}
+#tododiv label{
+    padding: 5px 0px;
+    font-size: 17px;
+    font-weight: 500;
+    margin: auto;
+}
+#tododiv input{
+    height: 30px;
+    border-radius: 20px;
+    outline: none;
+    border: solid 1px whitesmoke;
+    padding: 0px 10px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#tododiv > button{
+    margin-left: 180px;
+}
+#tododiv > div{
+    text-align: center;
+    margin-top: 6px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#tododiv>button{
+    background-color:cornflowerblue
+}
+#tododiv>h3{
+    text-align: center;
+}
+
+
+
+
+
+
+#listdiv{
+    margin-top: 150px;
+    /* display: flex; */
+    text-align: center;
+    width: 1200px;
+    margin: auto;
+
+}
+#listdiv >div{
+    display: flex;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#listdiv>div>div{
+    display: flex;
+    /* margin-left: 50px; */
+    width: 550px; 
+    margin: auto;
+}
+
+#listdiv button{
+    margin-top: -1px;
+    background-color:cornflowerblue
+}
